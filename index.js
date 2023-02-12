@@ -85,10 +85,14 @@ resetBtn.addEventListener("click", function reset() {
 });
 
 //start button functionality which will start the counter from zero or where it stopped
-let myVar = setInterval(timer, 100);
 
 //start btn click functionality
 startBtn.addEventListener("click", againTimer, (startCount = true));
+
+
+let myVar = setInterval(timer, 100);
+
+
 
 //counter which is changing the screen value
 if (startCount) {
