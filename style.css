@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: rgb(232, 226, 233);
+}
+.outerLayout {
+  background-color: rgb(45, 44, 44);
+  height: 400px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border-radius: 8px;
+  margin-top: 20%;
+}
+
+.innerLayout {
+}
+
+.screen {
+  margin-top: 20px;
+  padding: 10px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(45, 44, 44);
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 40px;
+  margin-left: 40px;
+  color: whitesmoke;
+  border: 2px solid white;
+}
+
+#counter {
+  padding-top: 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-items: inline;
+  justify-content: space-between;
+  margin-top: 80px;
+  width: 250px;
+}
+
+#startBtn {
+  background-color: rgb(45, 44, 44);
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+  border: transparent;
+  cursor: pointer;
+  border: 1px white solid;
+  width: 70px;
+}
+
+#stopBtn {
+  background-color: rgb(45, 44, 44);
+  font-size: 20px;
+  border-radius: 4px;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  border: 1px white solid;
+  width: 70px;
+}
+#resetBtn {
+  background-color: rgb(45, 44, 44);
+  font-size: 20px;
+  border-radius: 4px;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  border: 1px white solid;
+  width: 70px;
+}
+
+button:hover {
+  color: white;
+}
+
+#stopBtn:hover {
+  background-color: red;
+  color: black;
+}
+#resetBtn:hover {
+  background-color: yellow;
+  color: black;
+}
+#startBtn:hover {
+  background-color: rgb(101, 215, 112);
+  color: black;
+}
